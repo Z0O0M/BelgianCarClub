@@ -18,8 +18,8 @@
                 <h5 class="white-text">Social</h5>
                 <ul>
                     <li>
-                        <a class="white-text" href="https://www.facebook.com/belgiancarclub/" target="_blank"><img src="afbeeldingen/facebook.png" alt="facebook pagina" width="50"></a>
-                        <a class="white-text" href="https://www.instagram.com/belgiancarclub/" target="_blank"><img src="afbeeldingen/instagram.png" alt="instagram pagina" width="50"></a>
+                        <a class="white-text" href="https://www.facebook.com/belgiancarclub/" target="_blank"><img src="../../../images/facebook.png" alt="facebook pagina" width="50"></a>
+                        <a class="white-text" href="https://www.instagram.com/belgiancarclub/" target="_blank"><img src="../../../images/instagram.png" alt="instagram pagina" width="50"></a>
 
                     </li>
                 </ul>
