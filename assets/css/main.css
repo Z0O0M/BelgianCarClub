@@ -16,3 +16,7 @@ nav ul a {
     color: white;
     background-color: #545454;
 }
+
+p {
+  line-height: 2rem;
+}

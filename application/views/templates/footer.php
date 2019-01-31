@@ -1,3 +1,13 @@
+<div class="fixed-action-btn direction-top active" onclick="$('.tap-target').tapTarget('open')">
+    <a id="menu" class="btn btn-floating btn-large cyan"><i class="material-icons">menu</i></a>
+</div>
+<div class="tap-target cyan" data-target="menu">
+    <div class="tap-target-content white-text center">
+        <h5>Genk Circuit</h5>
+        <h6>05/02/2019</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maxime consequatur deserunt cumque delectus officiis corporis. Magni aliquam temporibus, iusto delectus enim quibusdam numquam cum esse porro</p>
+    </div>
+</div>
 <footer class="page-footer elegant-color">
     <div class="container">
         <div class="row">
@@ -34,9 +44,9 @@
 
     </div>
 </footer>
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="../../../assets/js/materialize.js"></script>
-    <script src="../../../assets/js/init.js"></script>
+<script src="../../../assets/js/jquery-3.3.1.js"></script>
+<script src="../../../assets/js/materialize.js"></script>
+<script src="../../../assets/js/init.js"></script>
 </body>
 
 </html>

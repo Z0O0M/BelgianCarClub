@@ -1,46 +1,55 @@
-<div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot"></div>
-    <div class="parallax"><img src="../../../assets/images/auto.jpg" alt="First background picture" style="transform: translate3d(-50%, 298.536px, 0px); opacity: 1;"></div>
+<div class="parallax-container center valign-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 white-text">
+                <h2 class="teal-text teal-text lighten-2">Parallax Template</h2>
+                <p>A modern responsive front-end framework based on Material Design</p>
+                <a class="waves-effect waves-light btn-large teal lighten-2">Get Started</a>
+            </div>
+        </div>
+    </div>
+    <div class="parallax">
+        <img src="https://images.unsplash.com/photo-1429081172764-c0ee67ab9afd?dpr=1&auto=format&fit=crop&w=1500&h=927&q=80&cs=tinysrgb&crop=">
+    </div>
+
 </div>
-<div class="row">
-    <div class="col s10 offset-s1 z-depth-5">
-        <div class="section">
-            <div class="row">
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center orange-text text-darken-3"><i class="material-icons">shutter_speed</i></h2>
-                        <h5 class="center">Double the speed</h5>
+<div class="container z-depth-5">
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">cloud_upload</i></h2>
+                    <h5 class="center">Daily Uploads of Belgian Cars</h5>
 
-                        <p class="light">Your website needs to go online as fast as possible. Luckily, we're ready to get stuff done in any time limit.</p>
-                    </div>
+                    <p class="light">Your website needs to go online as fast as possible. Luckily, we're ready to get stuff done in any time limit.</p>
                 </div>
+            </div>
 
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center orange-text text-darken-3"><i class="material-icons">accessibility_new</i></h2>
-                        <h5 class="center">Double the care</h5>
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">event_seat</i></h2>
+                    <h5 class="center">Promotion of Automotive Events</h5>
 
-                        <p class="light">Our projects are not just coded and designed with the future in mind, but are user-friendly, W3 validated and accessible for everyone.</p>
-                    </div>
+                    <p class="light">Our projects are not just coded and designed with the future in mind, but are user-friendly, W3 validated and accessible for everyone.</p>
                 </div>
+            </div>
 
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center orange-text text-darken-3"><i class="material-icons">money</i></h2>
-                        <h5 class="center">Double the value</h5>
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">calendar_today</i></h2>
+                    <h5 class="center">Since April 2018</h5>
 
-                        <p class="light">Why should you pay top dollar for someone who'll use an overkill Wordpress template? We'll build the website with technology that best fits your vision and ideas, with pricing that is actually fair.</p>
-                    </div>
+                    <p class="light">Why should you pay top dollar for someone who'll use an overkill Wordpress template? We'll build the website with technology that best fits your vision and ideas, with pricing that is actually fair.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="row">
+<div class="row" style="margin-top: 25px;">
     <div class="col s10 offset-s1">
         <div class="row">
-            <div class="col s12 l8 first-col-m"></div>
-            <div class="col s12 l4 center">
+            <div class="col s12 l8 first-col-m z-depth-5" style="height: 500px;"></div>
+            <div class="col s12 l4 custom center">
                 <?php
                     $url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=7387140897.1677ed0.dc7b60ff409d441a91f2b103755dd359&count=2';
                     $output = file_get_contents($url);
