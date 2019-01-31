@@ -23,8 +23,8 @@
                 <h5 class="white-text">Social</h5>
                 <ul>
                     <li>
-                        <a class="white-text" href="https://www.facebook.com/belgiancarclub/" target="_blank"><img src="../../../images/facebook.png" alt="facebook pagina" width="50"></a>
-                        <a class="white-text" href="https://www.instagram.com/belgiancarclub/" target="_blank"><img src="../../../images/instagram.png" alt="instagram pagina" width="50"></a>
+                        <a class="white-text" href="https://www.facebook.com/belgiancarclub/" target="_blank"><img src="../../../assets/images/facebook.png" alt="facebook pagina" width="50"></a>
+                        <a class="white-text" href="https://www.instagram.com/belgiancarclub/" target="_blank"><img src="../../../assets/images/instagram.png" alt="instagram pagina" width="50"></a>
                     </li>
                 </ul>
             </div>
@@ -34,9 +34,9 @@
 
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="../../../js/materialize.js"></script>
-<script src="../../../js/init.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../../../assets/js/materialize.js"></script>
+    <script src="../../../assets/js/init.js"></script>
 </body>
 
 </html>
