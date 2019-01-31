@@ -11,3 +11,8 @@ nav ul a {
 .sidenav {
   z-index: 2;
 }
+
+.elegant-color {
+    color: white;
+    background-color: #545454;
+}
