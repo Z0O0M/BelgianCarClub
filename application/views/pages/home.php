@@ -1,68 +1,43 @@
-<div class="parallax-container center valign-wrapper">
+<div class="parallax-container center">
     <div class="container">
-        <div class="row">
-            <div class="col s12 white-text">
-                <h2 class="teal-text teal-text lighten-2">Parallax Template</h2>
-                <p>A modern responsive front-end framework based on Material Design</p>
-                <a class="waves-effect waves-light btn-large teal lighten-2">Get Started</a>
-            </div>
+        <div class="col s12 white-text animatable fadeInDown">
+            <h2>Belgian Car Club</h2>
+            <p>Uniting the Belgian car community</p>
         </div>
     </div>
     <div class="parallax">
-        <img src="https://images.unsplash.com/photo-1429081172764-c0ee67ab9afd?dpr=1&auto=format&fit=crop&w=1500&h=927&q=80&cs=tinysrgb&crop=">
+        <img src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.0-9/30712985_2063045417317655_4786593008164274176_o.jpg?_nc_cat=109&_nc_ht=scontent-bru2-1.xx&oh=45b357eeae12bcc284b9f1501c595a1a&oe=5CB9C5BA">
     </div>
-
 </div>
-<div class="container z-depth-5">
-    <div class="section">
+<div class="section">
+    <div class="container">
         <div class="row">
-            <div class="col s12 m4">
+            <div class="col s12 m4 animatable bounceInLeft">
                 <div class="icon-block">
-                    <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">cloud_upload</i></h2>
-                    <h5 class="center">Daily Uploads of Belgian Cars</h5>
-
-                    <p class="light">Your website needs to go online as fast as possible. Luckily, we're ready to get stuff done in any time limit.</p>
+                    <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">people</i></h2>
+                    <h5 class="center">Community</h5>
+                    <p class="light">We like to embrace a community feeling on all our social media accounts. Anyhting shared is from Belgian car fans for Belgian car fans!</p>
                 </div>
             </div>
 
-            <div class="col s12 m4">
+            <div class="col s12 m4 animatable bounceIn">
                 <div class="icon-block">
-                    <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">event_seat</i></h2>
-                    <h5 class="center">Promotion of Automotive Events</h5>
-
-                    <p class="light">Our projects are not just coded and designed with the future in mind, but are user-friendly, W3 validated and accessible for everyone.</p>
+                    <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">photo_camera</i></h2>
+                    <h5 class="center">Photography</h5>
+                    <p class="light">In Belgium there are a lot of photographers that primarily take pictures of cars. The pictures we share will mostly be made by these people and they will always be credited for that.</p>
                 </div>
             </div>
 
-            <div class="col s12 m4">
+            <div class="col s12 m4 animatable bounceInRight">
                 <div class="icon-block">
                     <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">calendar_today</i></h2>
-                    <h5 class="center">Since April 2018</h5>
-
-                    <p class="light">Why should you pay top dollar for someone who'll use an overkill Wordpress template? We'll build the website with technology that best fits your vision and ideas, with pricing that is actually fair.</p>
+                    <h5 class="center">Events</h5>
+                    <p class="light">Real life automotive events are the cream of the crop when it comes to sharing our passion for cars. This is why we will always try to share events we recommend going to.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="row" style="margin-top: 25px;">
-    <div class="col s10 offset-s1">
-        <div class="row">
-            <div class="col s12 l8 first-col-m z-depth-5" style="height: 500px;"></div>
-            <div class="col s12 l4 custom center">
-                <?php
-                    $url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=7387140897.1677ed0.dc7b60ff409d441a91f2b103755dd359&count=2';
-                    $output = file_get_contents($url);
-                    $manage = json_decode($output, true);
-                    foreach ($manage['data'] as $value) {
-                        echo '<div class="z-depth-2" style="margin: auto; min-width: 180px; max-width: 500px"><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="'.$value['link'].'" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote></div>';
-                    }
-                    //foreach ($manage['data'] as $value) {
-                        //echo '<div class="col s12 m4 center"><div class="material-placeholder"><img style="width:'.$value['images']['standard_resolution']['width'].';height:'.$value['images']['standard_resolution']['height'].';" //class="materialboxed col s12" src="'.$value['images']['standard_resolution']['url'].'"/></div></div>';
-                    //}
-                ?>
-            </div>
-            <script async src="//www.instagram.com/embed.js"></script>
-        </div>
-    </div>
+<div class="carousel carousel-slider z-depth-5">
+    <?php echo $instagram_feed?>
 </div>

@@ -1,20 +1,21 @@
 nav ul a {
     color: #444;
 }
+
 .primary-color {
     color: #444;
 }
+
 .sidenav-overlay {
   z-index: 1;
 }
 
-.sidenav {
-  z-index: 2;
+.elegant-color {
+    background-color: #545454;
 }
 
-.elegant-color {
-    color: white;
-    background-color: #545454;
+.footer-text {
+    color: blue !important;
 }
 
 p {
