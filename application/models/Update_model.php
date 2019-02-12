@@ -3,7 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Update_model extends CI_Model {
     public function UpdateRecent($count) {
-        $this->load->database();
         $url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=7387140897.1677ed0.dc7b60ff409d441a91f2b103755dd359&count='.$count;
         $output = file_get_contents($url);
         $manage = json_decode($output, true);

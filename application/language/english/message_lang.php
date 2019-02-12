@@ -1,0 +1,26 @@
+<?php
+$lang['language'] = "English";
+$lang['language_abbrevation'] = "EN";
+$lang['msg_parallax_slogan'] = "Uniting the Belgian car community";
+$lang['msg_community_title'] = "Community";
+$lang['msg_community_text'] = "We like to embrace a community feeling on all our social media accounts. Anyhting shared is from Belgian car fans for Belgian car fans!";
+$lang['msg_photography_title'] = "Photography";
+$lang['msg_photography_text'] = "In Belgium there are a lot of photographers that primarily take pictures of cars. The pictures we share will mostly be made by these people and they will always be credited for that.";
+$lang['msg_events_title'] = "Events";
+$lang['msg_events_text'] = "Real life automotive events are the cream of the crop when it comes to sharing our passion for cars. This is why we will always try to share events we recommend going to.";
+$lang['msg_faq_questions']['msg_faq_q1'] = "When did you start off with Belgian Car Club?";
+$lang['msg_faq_answers']['msg_faq_a1'] = "Belgian Car Club was first introduced in April of 2018";
+$lang['msg_faq_questions']['msg_faq_q2'] = "Why did you create Belgian Car Club?";
+$lang['msg_faq_answers']['msg_faq_a2'] = " At first there was no real vision set for what Belgian Car Club would be. I was just really interested in cars so I started a page with the intention to share pictures that I liked. Over time I started to post more and more photo's of Belgian cars. After receiving positive feedback from a lot of people I decided to upload Belgian cars only and turn Belgian Car Club into a real community page, the page that we know and love today!";
+$lang['msg_faq_questions']['msg_faq_q3'] = "Do you post your own pictures?";
+$lang['msg_faq_answers']['msg_faq_a3'] = "Every picture posted on our social media that includes credits is not made by me.";
+$lang['msg_faq_questions']['msg_faq_q4'] = "What does Belgian Car Club's future look like?";
+$lang['msg_faq_answers']['msg_faq_a4'] = "For now I want to continue what I've been doing at a consistent rate. Hopefully in the furture there will be events, givaways, etc.";
+$lang['msg_faq_questions']['msg_faq_q5'] = "Who is the person behind Belgian Car Club?";
+$lang['msg_faq_answers']['msg_faq_a5'] = "I am Marco, a 20 year old Engineering student who lives in Limburg, Belgium.";
+$lang['msg_footer_about_title'] = "About us";
+$lang['msg_footer_about_text'] = "At Belgian Car Club, we believe that by creating a centralised hub for sharing images from the Belgian Car Community, we can bring new Belgian car enthusiasts together as well as help the already established ones grow their social media accounts.";
+$lang['msg_footer_contact_title'] = "Contact";
+$lang['msg_footer_about_text_location'] = ' Location: <a class="white-text" href="https://www.google.be/maps/place/Belgium/">Belgium</a>';
+$lang['msg_footer_about_text_email'] = ' E-mail: <a class="white-text" href="mailto:belgiancarclub@gmail.com">Belgiancarclub@gmail.com</a>';
+$lang['msg_footer_social_title'] = "Social Media";

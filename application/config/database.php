@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'belgiancarclub',
+	'hostname' => 'procode.be.mysql',
+	'username' => 'procode_be_belgiancarclub',
+	'password' => 'belgiancar',
+	'database' => 'procode_be_belgiancarclub',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

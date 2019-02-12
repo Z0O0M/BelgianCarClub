@@ -1,0 +1,1 @@
+<h1>You are now a participant for this event!</h1>

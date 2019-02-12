@@ -1,8 +1,8 @@
 <div class="parallax-container center">
     <div class="container">
-        <div class="col s12 white-text animatable fadeInDown">
+        <div class="col s12 white-text animatable fadeInDown" style="margin-top: 10%;">
             <h2>Belgian Car Club</h2>
-            <p>Uniting the Belgian car community</p>
+            <p><?php echo $this->lang->line('msg_parallax_slogan'); ?></p>
         </div>
     </div>
     <div class="parallax">
@@ -15,24 +15,24 @@
             <div class="col s12 m4 animatable bounceInLeft">
                 <div class="icon-block">
                     <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">people</i></h2>
-                    <h5 class="center">Community</h5>
-                    <p class="light">We like to embrace a community feeling on all our social media accounts. Anyhting shared is from Belgian car fans for Belgian car fans!</p>
+                    <h5 class="center"><?php echo $this->lang->line('msg_community_title'); ?></h5>
+                    <p class="light"><?php echo $this->lang->line('msg_community_text'); ?></p>
                 </div>
             </div>
 
             <div class="col s12 m4 animatable bounceIn">
                 <div class="icon-block">
                     <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">photo_camera</i></h2>
-                    <h5 class="center">Photography</h5>
-                    <p class="light">In Belgium there are a lot of photographers that primarily take pictures of cars. The pictures we share will mostly be made by these people and they will always be credited for that.</p>
+                    <h5 class="center"><?php echo $this->lang->line('msg_photography_title'); ?></h5>
+                    <p class="light"><?php echo $this->lang->line('msg_photography_text'); ?></p>
                 </div>
             </div>
 
             <div class="col s12 m4 animatable bounceInRight">
                 <div class="icon-block">
                     <h2 class="center cyan-text text-darken-3"><i class="material-icons medium">calendar_today</i></h2>
-                    <h5 class="center">Events</h5>
-                    <p class="light">Real life automotive events are the cream of the crop when it comes to sharing our passion for cars. This is why we will always try to share events we recommend going to.</p>
+                    <h5 class="center"><?php echo $this->lang->line('msg_events_title'); ?></h5>
+                    <p class="light"><?php echo $this->lang->line('msg_events_text'); ?></p>
                 </div>
             </div>
         </div>
@@ -41,3 +41,20 @@
 <div class="carousel carousel-slider z-depth-5">
     <?php echo $instagram_feed?>
 </div>
+<div class="section">
+    <div class="container">
+        <h3 class="center">FAQ</h3>
+        <ul class="collapsible popout">
+        <?php
+            $questions = $this->lang->line('msg_faq_questions');
+            $answers = $this->lang->line('msg_faq_answers');
+            $count = 0;
+            foreach ($questions as $value) {
+                $count += 1;
+                echo '<li><div class="collapsible-header black-text" tabindex="0"><i class="material-icons">expand_more</i>'.$questions['msg_faq_q'.$count].'</div><div class="collapsible-body black-text"><span>'.$answers['msg_faq_a'.$count].'</span></div></li>';
+        }
+        ?>
+        </ul>
+    </div>
+</div>
+<script src="../../../assets/js/parallax.js"></script>
